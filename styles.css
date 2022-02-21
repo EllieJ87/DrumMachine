@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap");
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Vujahday Script', cursive;
+  background-image: url("images/bg-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  width: 900px;
+  max-width: 90%;
+}
+
+.display-contents {
+  margin-bottom: 10px;
+}
+
+.col-8 {
+  background-color: rgba(249, 228, 217, 0.8);
+  padding: 10px 15px;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 10px 18px rgba(49, 68, 62, 0.8);
+          box-shadow: 5px 10px 18px rgba(49, 68, 62, 0.8);
+}
+
+.card {
+  background-color: rgba(49, 68, 62, 0.8);
+}
+
+#display {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: antiquewhite;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.btn {
+  padding: 20px 15px;
+  background-color: #ea2f3d;
+  border-radius: 5px;
+  color: antiquewhite;
+  font-weight: bold;
+  font-size: 1em;
+  -webkit-box-shadow: 2px 5px 9px rgba(49, 68, 62, 0.8);
+          box-shadow: 2px 5px 9px rgba(49, 68, 62, 0.8);
+}
+
+.btn:hover {
+  background-color: antiquewhite;
+  color: #ea2f3d;
+}
+
+@media (max-width: 572px) {
+  .container {
+    width: 1000px;
+    max-width: 95%;
+  }
+  .col-4 {
+    padding: 5px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
